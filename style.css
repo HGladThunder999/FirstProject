@@ -1,18 +1,37 @@
+body{
+    background-color:black;
+}
 .posts{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(111, 102, 102);
     background-color: black;
 }
 
-.navBar{
-    background-color:Yellow;
-    display:inline;
+.NavBar{
+    background-color: yellow;
     color:black;
     text-align: center;
+    padding:0px 20px;
 }
 
-.navBar li{
-    display:inline;
-    padding: 20px;
+.NavBar ul{
+    margin:0;
+    padding:0;
 }
+
+.NavBar li:hover{
+    background-color:#467235;
+}
+
+.NavBar li{
+    display:inline-block;
+    padding:5px 20px;
+    font-size:20px;
+}
+
+#mainTitle{
+    text-align:center;
+    color:Yellow;
+}
+
 
